@@ -1,0 +1,28 @@
+### --- ENVIRONNEMENT VIRTUEL ---
+# Indispensable pour ne pas envoyer tes 500Mo de bibliothèques
+.venv/
+venv/
+env/
+
+### --- PYTHON ---
+# Fichiers de cache qui ralentissent Git et ne servent à rien en ligne
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+### --- SYSTÈME (Spécifique Mac) ---
+# Fichiers invisibles créés par macOS dans chaque dossier
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# On ignore les formats sources si tu ne veux pas les partager
+*.epub
+*.pdf
+*.zip
+*.tar.gz
+
+### --- IDE (VS Code) ---
+# Paramètres locaux de ton éditeur
+.vscode/
