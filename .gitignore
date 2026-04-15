@@ -17,6 +17,8 @@ PyMotifs
 .DS_Store
 .AppleDouble
 .LSOverride
+Coprus_textes
+corpus_goncourt
 
 # On ignore les formats sources si tu ne veux pas les partager
 *.epub
